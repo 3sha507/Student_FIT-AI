@@ -179,6 +179,7 @@ http://localhost:5000
 
 # 📂 Project Structure
 
+```
 studentfit-ai/
 │
 ├── .env.example
@@ -199,71 +200,79 @@ studentfit-ai/
     ├── types.ts
     │
     ├── services/
-    │
     ├── components/
-    │
     └── lib/
 
 ---
-
+```
 # 📸 Sample User Flow
 
-## 1️⃣ User Enters:
-
+## 1️⃣ User Enters
 - Age  
 - Gender  
 - Height  
 - Weight  
 - Goal  
 
-## 2️⃣ System Calculates:
-
+## 2️⃣ System Calculates
 - BMI  
 - BMR  
 - Daily Calorie Needs  
 
-## 3️⃣ AI Generates:
-
+## 3️⃣ AI Generates
 - Weekly Workout Routine  
 - Balanced Diet Plan  
 - Progress Suggestions  
 
 ---
 
-
 # 🧩 Future Enhancements
-
-- Mobile App Version  
-- Mood-Based Workout Music  
-- AI Progress Prediction Model  
-- Emotion-Based Fitness Recommendations  
-- Budget Optimization for Meals  
+- 📱 Mobile App Version  
+- 🎵 Mood-Based Workout Music  
+- 📊 AI Progress Prediction Model  
+- 🧠 Emotion-Based Fitness Recommendations  
+- 💰 Budget Optimization for Meals  
 
 ---
 
-
 # 👨‍💻 Developed For
-
 - Students who want to stay fit  
 - AI/ML learners building real-world applications  
 - Fitness enthusiasts  
 
 ---
 
-
 # 📜 License
-
-This project is open-source and available under the MIT License.
+This project is open-source and available under the **MIT License**.
 
 ---
 
-# To Run Locally
+# 🚀 To Run Locally
 
-**Prerequisites:**  Node.js
+## Prerequisites
+- Node.js installed
 
+## Steps
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 1️⃣ Install Dependencies
+```bash
+npm install
+```
+
+### 2️⃣ Set Environment Variable
+Create a `.env.local` file and add:
+
+```env
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+### 3️⃣ Run the Application
+```bash
+npm run dev
+```
+
+The app will start on:
+
+```
+http://localhost:5173
+```
